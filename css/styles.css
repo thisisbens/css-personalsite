@@ -1,0 +1,151 @@
+/* color palette: https://colorhunt.co/palette/226680 */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+div {
+  background-color: white;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  color: #66BFBF;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {color:#EAF6F6;}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 5%;
+  margin-top: 50px;
+}
+
+/*   TOP CONTAINER  */
+
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+/* MIDDLE CONTAINER */
+
+.middle-container {
+  padding-top: 50px;
+}
+
+.profile-desc {
+  width: 35%;
+  margin: 0 auto 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100 auto 100 auto;
+  /*auto will center this element */
+  text-align: left;
+  line-height: 2;
+}
+
+.wd-img {
+  height: 25%;
+  /* 25% of .skillrow which is 50% of total screen page */
+  float: left;
+  margin-right: 30px;
+}
+
+.ux-img {
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-desc {
+  width: 40%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+
+.BUTTON_BOD {
+  margin-top: 50px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 17px;
+  background-color: #66BFBF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_BOD:hover {
+  background: #EAF6F6;
+  border: solid #EAF6F6 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+/* BOTTOM CONTAINER */
+
+.bottom-container {
+  margin-top: 100px;
+  padding: 50px 0 100px;
+  background-color: #66BFBF;
+  color: #EAF6F6;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10 30 10;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 0.8em;
+}
